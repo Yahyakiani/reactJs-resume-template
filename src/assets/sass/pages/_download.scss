@@ -1,0 +1,46 @@
+.download{
+	padding: 80px 0;
+}
+.page-title{
+	color: white;
+	@include em(36);
+}
+
+.item{
+	@include clearfix;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #2c2c2c;
+
+	.item-title{
+		color: $accent-color;
+		font-weight: 400;
+		margin: 0;
+	}
+	.year{
+		display: block;
+		color: white;
+		margin-bottom: 20px;
+	}
+	a.button{
+		float: left;
+		margin-right: 10px;
+	}
+
+	.social-share{
+		float: right;
+		border: 1px solid #2c2c2c;
+		padding: 8px 10px;
+		line-height: normal;
+		span{@include em(13)}
+
+		a{
+			color: $body-color;
+			display: inline-block;
+			margin: 0 5px;
+			transition: .3s ease;
+
+			&:hover{ color: $accent-color }
+		}
+	}
+}

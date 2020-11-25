@@ -1,0 +1,31 @@
+/*!
+ * Project_Name: Themezy Band Template
+ * Author: Themezy
+ * Email: info@themezy.com
+ * URL: http://themezy.com
+ */
+
+/*=========================================== 
+ * Importing CSS Libraries
+ *===========================================*/
+ @import 	"libs/settings",
+ 			"libs/mixins",
+ 			"libs/normalize",
+ 			"libs/global",
+ 			"libs/component",
+
+ 			// importing bootstrap grid framework
+ 			"libs/bootstrap-grid/settings",
+ 			"libs/bootstrap-grid/mixins",
+ 			"libs/bootstrap-grid/grid",
+
+ 			"layout/header",
+ 			"layout/content",
+ 			"layout/sidebar",
+ 			"layout/footer",
+
+ 			"pages/homepage",
+ 			"pages/post",
+ 			"pages/gallery",
+ 			"pages/download";
+			

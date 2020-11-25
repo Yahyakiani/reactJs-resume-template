@@ -1,0 +1,53 @@
+@import '../../assets/sass/libs/_settings.scss';
+@import '../../assets/sass/libs/mixins';
+
+.site-footer{
+	background: #191919;
+	padding: 50px 0;
+	text-align: center;
+
+	address{
+		font-style: normal;
+
+		a{
+			color: inherit;
+			text-decoration: none;
+		}
+	}
+
+
+
+	.social-links{
+		margin: 50px 0;
+		a{
+			display: inline-block;
+			width: 45px;
+			height: 45px;
+			background: linear-gradient(0, #353535, #353535) top left,
+						linear-gradient(0, #353535, #353535) top right,
+						linear-gradient(315deg, transparent 5px, #353535 0) bottom right,
+						linear-gradient(0, #353535, #353535) bottom left;
+			background-size: 55% 55%;
+			background-repeat: no-repeat;
+			color: white;
+			margin: 0 5px;
+			@include em(20);
+			line-height: 45px;
+
+			&:hover{
+				background: linear-gradient(0, lighten(#353535,10%), lighten(#353535,10%)) top left,
+							linear-gradient(0, lighten(#353535,10%), lighten(#353535,10%)) top right,
+							linear-gradient(315deg, transparent 5px, lighten(#353535,10%) 0) bottom right,
+							linear-gradient(0, lighten(#353535,10%), lighten(#353535,10%)) bottom left;
+				background-size: 55% 55%;
+				background-repeat: no-repeat;
+			}
+		}
+	}
+
+	.copy{
+		color: #434343;
+		font-weight: 300;
+		@include em(14);
+	}
+}

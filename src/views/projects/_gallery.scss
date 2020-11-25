@@ -1,0 +1,87 @@
+.content.fullwidth{
+	padding: 80px 0;
+}
+
+.mobile-filter{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid $accent-color;
+	padding: 10px 20px;
+	border-radius:0;
+	background: none;
+	color: $accent-color;
+	font-weight: 400;
+	text-transform: uppercase;
+	@include em(12);
+	display: none;
+	width: 100%;
+	text-align: center;
+
+	@media screen and (max-width: 480px){
+		display: block;
+	}
+}
+.filter-links{
+	margin: 30px 0;
+	a{
+		display: inline-block;
+		border: 1px solid #2c2c2c;
+		padding: 10px 20px;
+		border-radius:0;
+		background: none;
+		color: white;
+		font-weight: 400;
+		text-transform: uppercase;
+		text-decoration: none;
+		line-height: normal;
+		@include em(12);
+		transition: .3s ease;
+		margin-right: 10px;
+
+		&.current,&:hover{
+			border: 1px solid $accent-color;
+			color: $accent-color;
+		}
+
+		@media screen and (max-width: 480px){ display: none }
+	}
+}
+.filterable-items .filterable-item {
+  transition-property: transform, opacity;
+  transition-duration: .3s;
+}
+.filterable-items{
+	margin: 0 -15px;
+}
+.filterable-item{
+	padding: 15px;
+	width: 24.5%;
+	float: left;
+	box-sizing: border-box;
+
+	@media screen and (max-width: 768px){width: 50%}
+	@media screen and (max-width: 480px){width: 100%}
+
+	figure{
+		overflow: hidden;
+		display: block;
+
+		img{
+			width: 100%;
+			max-width: 100%;
+			display: block;
+		}
+	}
+}
+/**** disabling Isotope CSS3 transitions ****/
+/* line 435, ../sass/template/_components.scss */
+.filterable-items.no-transition,
+.filterable-items.no-transition .filterable-item,
+.filterable-items .filterable-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}

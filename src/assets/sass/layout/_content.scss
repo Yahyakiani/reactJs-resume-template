@@ -1,0 +1,181 @@
+/*
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+// .grabbing {
+//     cursor:url(grabbing.png) 8 8, move;
+// }
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+.content{
+
+	.post{
+		position: relative;
+		margin-bottom: 30px;
+		padding-left: 100px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		.entry-date{
+			position: absolute;
+			left:0;
+			top:0;
+			width: 70px;
+			background: $accent-color;
+			background: linear-gradient(0deg, $accent-color, $accent-color) top left,
+						linear-gradient(0deg, $accent-color, $accent-color) top right,
+						linear-gradient(315deg, transparent 10px, $accent-color 0) bottom right,
+						linear-gradient(0deg, $accent-color, $accent-color) bottom left;
+			background-size: 55% 55%;
+			background-repeat: no-repeat;
+			color: white;
+			padding: 10px;
+			text-align: center;
+
+			.date{
+				@include em(36);
+				font-weight: 900;
+			}
+			.month{
+				@include em(14);
+				text-transform: uppercase;
+			}
+		}
+		.featured-image{
+			overflow: hidden;
+			margin-bottom: 20px;
+
+			img{
+				width: 100%;
+				max-width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+		.entry-title{
+			margin-top: 0;
+			margin-bottom: 10px;
+			@include em(24);
+			font-size: normal;
+			font-weight: 700;
+
+			a{
+				color: white;
+				text-decoration: none;
+				transition: .3s ease;
+				&:hover{ color: $accent-color }
+			}
+		}
+		p{ margin-bottom: 10px }
+		a{
+			color: $accent-color;
+			text-decoration: none;
+		}
+	}
+}
+
+.map{
+	height: 320px;
+}
+
+.contact-form{
+	@include clearfix;
+	input,textarea{
+		background: #353535;
+		display: block;
+		width: 100%;
+		padding: 15px;
+		color: white;
+		margin-bottom: 10px;
+		border: none;
+	}
+	textarea{ resize: vertical }
+	input[type="submit"]{
+		float: right;
+		width: auto;
+		background-color: $accent-color;
+	}
+	textarea{
+		min-height: 150px;
+	}
+}
+.map-wrapper{
+	address{
+		font-style: normal;
+		background: #353535;
+		border-bottom: 3px solid $accent-color;
+		padding: 10px;
+		color: white;
+
+		a{
+			color: white;
+			transition: .3s ease;
+			text-decoration: none;
+
+			&:hover{
+				color: $accent-color;
+			}
+		}
+	}
+}

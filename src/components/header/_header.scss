@@ -1,0 +1,133 @@
+// @import '../../assets/sass/libs/global';
+@import '../../assets/sass/libs/_settings.scss';
+@import '../../assets/sass/libs/mixins';
+
+.site-header{
+	@include clearfix;
+	z-index: 99;
+
+	.header-collapse &{
+		position: absolute;
+		width: 100%;
+	}
+	.container{
+		@include clearfix;
+		border-bottom: 1px solid rgba(255,255,255,.15);
+	}
+}
+#branding{
+	float: left;
+	position: relative;
+	margin: 35px 0 20px;
+	color: inherit;
+	text-decoration: none;
+
+	img{display: block}
+	.site-description{
+		display: block;
+		margin: 0;
+	}
+}
+
+.main-navigation{
+	float: right;
+	.toggle-menu{
+		background: none;
+		color: $body-color;
+		@include em(18);
+		border: none;
+		outline:none;
+		position: relative;
+		top: 40px;
+		display: none;
+
+		&:hover,&:active,&.active{
+			color: $accent-color;
+		}
+
+		@media screen and (max-width: 640px){
+			display: block;
+		}
+	}
+	.menu{
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+
+		@media screen and (min-width: 641px){ display: block!important }
+		@media screen and (max-width: 640px){ display: none }
+
+		.menu-item{
+			position:relative;
+			float: left;
+
+			&:after{
+				content:" ";
+				position: absolute;
+				left:0;
+				right:0;
+				bottom:0;
+				margin: auto;
+				width: 0;
+				opacity: 0;
+				border-left:4px solid transparent;
+				border-right:4px solid transparent;
+				border-bottom: 4px solid $accent-color;
+				transition: .3s ease;
+			}
+
+			&:last-child a:after{display: none}
+
+			&:hover,&.current-menu-item {
+				&:after{opacity: 1}
+
+				a{ color: $accent-color }
+			}
+		}
+
+		a{
+			display: block;
+			position: relative;
+			padding: 45px 20px;
+			color: white;
+			@include em(15);
+			font-weight: 600;
+			text-decoration: none;
+			transition: .3s ease;
+
+			&:after{
+				content:"/";
+				position: absolute;
+				right: 0;
+				color: rgba(255,255,255,.15);
+				font-weight: 300;
+			}
+		}
+	}
+}
+
+.mobile-menu{
+	clear: both;
+	border: 1px solid rgba(255,255,255,.15);
+	display: none;
+	margin-bottom: 20px;
+	@media screen and (min-width: 641px){display: none!important}
+
+	.menu{
+		list-style: none;
+		margin:0;
+		padding: 0;
+
+		a{
+			padding: 10px;
+			color: $body-color;
+			text-decoration: none;
+			display: block;
+			background: $footer-color;
+
+			&:hover{color: $accent-color}
+		}
+		.current-menu-item a{color: $accent-color}
+
+	}
+}

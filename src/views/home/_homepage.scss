@@ -1,0 +1,268 @@
+@import '../../assets/sass/libs/_settings.scss';
+@import '../../assets/sass/libs/mixins';
+
+.slider{
+	position: relative;
+	.slides{
+		@include clearfix;
+		margin:0;
+		padding-left: 0;
+		list-style:none;
+		overflow: hidden;
+
+		li{
+			margin-right: -100%;
+			width: 100%;
+			float: left;
+			min-height: 540px;
+			background-color: #171717;
+			background-size: cover;
+		}
+
+		.container{
+			padding: 200px 0;
+			text-align: center;
+		}
+
+		.slide-title{
+			margin: 0;
+			color: white;
+			@include em(90);
+			font-weight: 900;
+			line-height: 1;
+			transform: scale(1.3);
+			opacity:1 !important;
+			transition: .3s ease;
+			transition-delay: .3s;
+		}
+
+		.slide-subtitle{
+			color: $accent-color;
+			@include em(48);
+			font-weight: 300;
+			transform: scale(1.3);
+			opacity:1 !important;
+			transition: .3s ease;
+			transition-delay: .6s;
+		}
+
+		.slide-desc{
+			@include em(30);
+			font-weight: 300;
+			line-height: normal;
+			transform: scale(1.3);
+			opacity:1 !important;
+			transition: .3s ease;
+			transition-delay: .9s;
+		}
+
+		.flex-active-slide{
+			.slide-title,.slide-subtitle,.slide-desc{
+				transform: scale(1);
+				opacity: 1 !important;
+			}
+		}
+	}
+
+	.flex-control-nav{
+		margin:0;
+		padding:0;
+		list-style: none;
+		position: absolute;
+		width: 100%;
+		bottom: 30px;
+		z-index: 99;
+		text-align: center;
+
+		li{
+			display: inline-block;
+			margin: 0 5px;
+
+			a{
+				display: block;
+				width: 15px;
+				height: 15px;
+				background: url(../../assets/images/pagination.png) no-repeat 0 0;
+				text-indent: -99999px;
+				cursor: pointer;
+
+				&.flex-active{
+					background-position: -15px 0;
+				}
+			}
+
+		}
+	}
+}
+
+.quote-slider{
+	position: relative;
+	margin: 80px 0;
+
+	.slides{
+		@include clearfix;
+		margin:0;
+		padding-left:0;
+		list-style: none;
+	}
+
+	blockquote{
+		margin:0;
+
+		p{
+			@include em(36);
+			color: white;
+			font-weight: 300;
+			line-height: normal;
+		}
+
+		cite{
+			display: block;
+			color: $accent-color;
+			@include em(24);
+			font-weight: 100;
+			font-style: normal;
+		}
+	}
+
+	.flex-direction-nav{
+		@include clearfix;
+		list-style: none;
+		padding-left: 0;
+
+		li{
+			float: left;
+			margin-right: 2px;
+		}
+
+		a{
+			display: block;
+			width: 33px;
+			height: 33px;
+			color: white;
+			background-color: #353535;
+			line-height: 32px;
+			text-align: center;
+			transition: .3s ease;
+
+			&:hover{
+				background-color: $accent-color;
+			}
+		}
+	}
+}
+
+.section-title{
+	color: white;
+	@include em(36);
+	font-weight: 700;
+	margin-top: 80px;
+}
+
+.section-header{
+	@include clearfix;
+	border-bottom: 1px solid rgba(255,255,255,.15);
+	margin-bottom: 70px;
+	padding-top: 40px;
+	.section-title{
+		color: white;
+		@include em(36);
+		font-weight: 700;
+		margin-top: 0;
+		float: left;
+	}
+}
+.event-carousel{margin-bottom: 70px}
+.event-nav{
+	float: right;
+
+	a{
+		display: inline-block;
+		width: 33px;
+		height: 33px;
+		color: white;
+		background-color: #353535;
+		line-height: 32px;
+		text-align: center;
+		transition: .3s ease;
+
+		&:hover{
+			background-color: $accent-color;
+		}
+	}
+}
+.event{
+	position: relative;
+	padding-left: 100px;
+
+	.entry-date{
+		position: absolute;
+		left:0;
+		top:0;
+		width: 70px;
+		background: $accent-color;
+		background: linear-gradient(0deg, $accent-color, $accent-color) top left,
+					linear-gradient(0deg, $accent-color, $accent-color) top right,
+					linear-gradient(315deg, transparent 10px, $accent-color 0) bottom right,
+					linear-gradient(0deg, $accent-color, $accent-color) bottom left;
+		background-size: 55% 55%;
+		background-repeat: no-repeat;
+		color: white;
+		padding: 10px;
+		text-align: center;
+
+		.date{
+			@include em(36);
+			font-weight: 900;
+		}
+		.month{
+			@include em(14);
+			text-transform: uppercase;
+		}
+	}
+	.entry-title{
+		margin-top: 0;
+		@include em(16);
+		font-size: normal;
+		font-weight: 400;
+
+		a{
+			color: white;
+			text-decoration: none;
+
+		}
+	}
+}
+
+.feature{
+	text-align: center;
+	margin-bottom: 50px;
+
+	figure{
+		overflow: hidden;
+		position: relative;
+
+		&.cut-corner:after{
+			content:" ";
+			width: 37px;
+			height: 37px;
+			background: $bg-color;
+			position: absolute;
+			bottom:-15px;
+			right:-18px;
+			transform: rotate(45deg);
+		}
+
+		img{
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.feature-title{
+		color: white;
+		@include em(18);
+		font-weight: 400;
+	}
+}
