@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterLogo from '../../assets/dummy/logo-footer.png'
+import FooterLogo from '../../assets/images/logo.png'
 import 'font-awesome/css/font-awesome.min.css';
 import './_footer.scss'
 
@@ -9,10 +9,12 @@ const Footer = () => {
 
         <footer class="site-footer">
 				<div class="container">
-					 <img src={FooterLogo} alt="Site Name" />
+					 <img src={FooterLogo} height={'100px'} width={'100px'} alt="Logo" />
 
 					<address>
-						<p>495 Brainard St. Detroit, MI 48201 <br></br><a href="tel:354543543">(563) 429 234 890</a> <br /> <a href="mailto:info@bandname.com">info@bandname.com</a></p>
+						<p>Islamabad <br />Pakistan<br />
+						{/* <a href="mailto:info@bandname.com">info@bandname.com</a> */}
+						</p>
 					</address>
 
 					<div class="social-links">
@@ -21,7 +23,7 @@ const Footer = () => {
 						<a href="#"><i class="fa fa-github"></i></a>
 					</div>
 
-					<p class="copy">Copyright 2014 Company Name. Designed by Themezy. All right reserved</p>
+					<p class="copy">This site is developed using ReactJS by Yahya Kayani from the original template of Themezy</p>
 				</div>
 			</footer>
     )

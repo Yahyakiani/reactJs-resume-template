@@ -11,28 +11,21 @@ const Nav = () => {
 		<nav class="main-navigation">
 			<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
 			<ul class="menu">
-
-					<NavLink
-						to={route_constants.HOME}
-						className="menu-item"
-						activeClassName={location.pathname === route_constants.HOME ? 'current-menu-item':'' }
-
-						>Home</NavLink>
-						<NavLink
-							to={route_constants.ABOUT}
-							className="menu-item"
-							activeClassName="current-menu-item"
-						>About</NavLink>
-						{/* <NavLink
-							to="/projects"
-							className="menu-item"
-							activeClassName="current-menu-item"
-						>Projects</NavLink> */}
-					<NavLink
-						to={route_constants.PROJECT}
-						className="menu-item"
-						activeClassName="current-menu-item"
-					>Projects</NavLink>
+				<NavLink
+					to={route_constants.HOME}
+					className="menu-item"
+					activeClassName={location.pathname === route_constants.HOME ? 'current-menu-item' : ''}
+				>Home</NavLink>
+				<NavLink
+					to={route_constants.ABOUT}
+					className="menu-item"
+					activeClassName="current-menu-item"
+				>About</NavLink>
+				<NavLink
+					to={route_constants.PROJECT}
+					className="menu-item"
+					activeClassName="current-menu-item"
+				>Projects</NavLink>
 			</ul>
 		</nav>
 	)
