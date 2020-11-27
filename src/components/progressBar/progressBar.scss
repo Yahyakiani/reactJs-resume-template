@@ -2,8 +2,8 @@
 
 // Generic CSS
 body {
- background: #222;
- font-family: Helvetica, Arial, sans-serif;
+  background: #222;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h4 {
@@ -14,33 +14,29 @@ li {
   list-style: none;
 }
 
-
 //Progress Bar Specific SASS
-.progressBar{
-	width: 100%;
-	height: 2em;
-	border: 0.125em solid darken(#c14a27,3);
-	background: darken(#3f3f3f,5);
-	overflow:hidden;
-	// @include border-radius(25px);
+.progressBar {
+  width: 100%;
+  height: 2em;
+  border: 0.125em solid darken(#c14a27, 3);
+  background: darken(#3f3f3f, 5);
+  overflow: hidden;
+  // @include border-radius(25px);
 }
 
 .progressBar div {
-	display:block;
-	float: left;
-	height: 2em;
+  display: block;
+  float: left;
+  height: 2em;
 }
 
 .progressBar div::after {
-	display: block;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #fff;
-	text-align:right;
-	padding: 0 0.75em;
-	font-size: 0.6rem;
-	line-height: 1.25;
-	font-weight:bold;
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-align: right;
+  padding: 0 0.75em;
+  font-size: 0.6rem;
+  line-height: 1.25;
+  font-weight: bold;
 }
-
-
-
