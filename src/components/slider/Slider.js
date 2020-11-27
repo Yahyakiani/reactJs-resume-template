@@ -14,7 +14,7 @@ const Slider = () => {
 						<div class="container">
 							<h2 class="slide-title">Yahya Kayani</h2>
 							<h3 class="slide-subtitle">Software Engineer</h3>
-							<p class="slide-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br></br> Fugiat aliquid minus nemo sed est.</p>
+							<p class="slide-desc">An individual who has a passion for making <br></br> great looking and optimized web apps.</p>
 							<NavLink
 								to={route_constants.ABOUT}
 								className="button cut-corner"

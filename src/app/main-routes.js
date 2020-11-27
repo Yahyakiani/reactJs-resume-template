@@ -13,7 +13,6 @@ const Routes = () => {
             <Switch>
                 <Route exact path={route_constants.HOME} component={Home} />
                 <Route exact path={route_constants.ABOUT} component={About} />
-                {/* <Route exact path="/detail" component={Detail} /> */}
                 <Route exact path={route_constants.PROJECT} component={Detail} />
             </Switch>
         </ScrollToTop>
