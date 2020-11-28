@@ -2515,7 +2515,9 @@ body {
   /* line 16, sass/pages/_post.scss */
   .content .featured-image img {
     width: 400px;
-    /* height: 350px; */
+    max-width: 100%; }
+  .content .personal-image img {
+    width: 100%;
     max-width: 100%; }
 /* line 22, sass/pages/_post.scss */
 .content .leading {

@@ -6,6 +6,7 @@ export const ProjectDetails = [
     description:
       "These is a static Multi-page application developed using Micro-Frontend Architecture React.js. They provide a concise overview of 3 techniques for data sharing between the Micro-Applications. Moreover, They also show how to perform routing between them.features implementation of Data sharing techniques between 3 micro-frontends. Namely these techniques are : State Sharing through Global Redux store, State Sharing through Events and State sharing through external packages",
     link: "https://github.com/Yahyakiani/micro-frontends-DataSharing-Techniques",
+  shortDescription:"An exercise of Micro-Frontends architecture consisting of 3 React applications.",
   },
   {
     date: { day: "5", month: "Sep" },
@@ -14,6 +15,7 @@ export const ProjectDetails = [
     description:
       "A Project which uses lxml for Data Extraction and Pandas for Analysis and Mining useful information. The data is then stored in pandas Dataframe which then cleans the data and performs analysis on it to find the max, min and average for each brand and its categories.It also performs sale analysis of items. The app is containerized with the help of Docker.",
     link: "https://github.com/Yahyakiani/Data-Mining-and-Analysis",
+  shortDescription:"Analysis Perform in Python employing Pandas on Live Website Dataset.",
   },
   {
     date: { day: "20", month: "Nov" },
@@ -22,6 +24,7 @@ export const ProjectDetails = [
     description:
       "Developed in python using Kivy Framework for Cross Platform UI development along with TensorFlow Framework for Model Training ,Optimization and testing.It performed monitoring and analysis on a set of Image frames.A Vision-Based Security system.It relied on 3 layers of security which are human detection, Face detection and Gait detection.Gait detection was applied using Recurrent neural networks.Made use of Transfer Learning Technique for our Deep learning Model.Awarded 2nd Position in Open House Competition held in Comsats University Islamabad.",
     link: "https://www.linkedin.com/in/yahya-kayani/detail/treasury/education:440302332/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACOjZbgBQaFnXahDDsfgej1v1z7HWV6T0kY%2C1606479880227)&section=education%3A440302332&treasuryCount=2",
+  shortDescription:"University Final year Project which won 2nd place over 50 other projects in the expo.",
   },
   {
     date: { day: "23", month: "Jun" },
@@ -30,6 +33,7 @@ export const ProjectDetails = [
     description:
       " An open-source project for gathering the client’s preferences using surveys. Performed Bug Fixes along with features updates and development using Jquery and vanilla Javascript. Furthermore, New survey styles and functionality were developed for a smoother client experience.",
     link: "https://www.limesurvey.org/en/",
+  shortDescription:"A Survey taking software on which i performed fixes and feature development while at Numetrics.",
   },
 ];
 export const PersonalDetails = {
@@ -37,16 +41,14 @@ export const PersonalDetails = {
   summary:
     "Passionate about finding problems and then finding someone else to solve them😄. Quick learner always searching to broaden my exposure to novel problems and unique solutions.",
   description:
-    "Worked primarily with JavaScript, Python and C++, with frameworks such as Express.js, React.js and Flask.",
+    "Worked primarily with JavaScript, Python, and C++, with frameworks such as Express.js, React/Redux, React-Native, Appollo GraphQl and Flask.",
   detail:
-    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinction.",
-  skill_text:
-    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distincti",
+    "Designed a more streamlined UI/UX connecting with API's for smoother user experience. (React, Appollo, Node).Architected and implemented a dashboard to give members a more comprehensive insight into their working.Responsible for monitoring application performance, Designing and developing any necessary conﬁgurations & structural changes within the project.",
   skills: [
     { name: "React/Redux", progress: "80%" },
     { name: "Node", progress: "70%" },
     { name: "Flask", progress: "80%" },
-    { name: "Appollo", progress: "60%" },
+    { name: "Appollo GraphQl", progress: "60%" },
   ],
 };
 
@@ -65,13 +67,6 @@ export const AwardDetails = [
     link: "https://www.linkedin.com/in/yahya-kayani/detail/treasury/education:440302332/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACOjZbgBQaFnXahDDsfgej1v1z7HWV6T0kY%2C1606479880227)&section=education%3A440302332&treasuryCount=2",
     organization: "COMSATS Islamabad",
   },
-//   {
-//     date: { day: "23", month: "Jun", year: "2012" },
-//     thumbnail: "",
-//     subtitle: "Deserunt mollitia animi",
-//     link: "#",
-//     organization: "Abc.com",
-//   },
 ];
 export const CertificateDetails = [
   {

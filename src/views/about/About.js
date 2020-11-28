@@ -22,14 +22,14 @@ const About = () => {
         <div class="col-md-7">
           <div class="content">
             <h2 class="entry-title">About Me</h2>
-            <figure class="featured-image">
+            <figure class="personal-image">
               <img src={image} alt="Yahya" width={"350px"} height={"350px"} />
             </figure>
             <p class="leading">{summary}</p>
             <p>
               <ProgressBar skills={skills} description={description} />
             </p>
-            <p>{detail}</p>
+            {/* <p>{detail}</p> */}
           </div>
         </div>
         <SideBarContainer Details={AwardDetails} title={"Awards"} />
