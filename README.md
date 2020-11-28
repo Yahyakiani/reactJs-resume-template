@@ -10,10 +10,10 @@ A static Multi-paged application resumer-builder developed using React.js. It us
 ![Home Page](./public_assets/homepage.png)
 ![Projects](./public_assets/project.png)
 
- - The App deployed at https://yahyakiani.github.io/about .Check it Out!!!!
 
 # Demo
 ![Demo](./public_assets/demo.gif)
+ - The App deployed at https://yahyakiani.github.io/reactJs-resume-template/ .Check it Out!!!!
 
 ## Installation
 
