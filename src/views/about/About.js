@@ -17,18 +17,18 @@ const About = () => {
       );
   });
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <div class="content">
-            <h2 class="entry-title">About Me</h2>
-            <figure class="personal-image">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-7">
+          <div className="content">
+            <h2 className="entry-title">About Me</h2>
+            <figure className="personal-image">
               <img src={image} alt="Yahya" width={"350px"} height={"350px"} />
             </figure>
-            <p class="leading">{summary}</p>
-            <p>
+            <p className="leading">{summary}</p>
+
               <ProgressBar skills={skills} description={description} />
-            </p>
+
             {/* <p>{detail}</p> */}
           </div>
         </div>

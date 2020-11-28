@@ -7,8 +7,8 @@ import './_footer.scss'
 const Footer = () => {
     return (
 
-        <footer class="site-footer">
-				<div class="container">
+        <footer className="site-footer">
+				<div className="container">
 					 <img src={FooterLogo} height={'100px'} width={'100px'} alt="Logo" />
 
 					<address>
@@ -16,13 +16,13 @@ const Footer = () => {
 						</p>
 					</address>
 
-					<div class="social-links">
-						<a href="https://github.com/Yahyakiani"><i class="fa fa-github"></i></a>
-						<a href="https://www.linkedin.com/in/yahya-kayani/"><i class="fa fa-linkedin"></i></a>
-						<a href="mailto:yahyakiani1@gmail.com"><i class="fa fa-google"></i></a>
+					<div className="social-links">
+						<a href="https://github.com/Yahyakiani"><i className="fa fa-github"></i></a>
+						<a href="https://www.linkedin.com/in/yahya-kayani/"><i className="fa fa-linkedin"></i></a>
+						<a href="mailto:yahyakiani1@gmail.com"><i className="fa fa-google"></i></a>
 					</div>
 
-					<p class="copy">This site is developed using ReactJS by Yahya Kayani from the original template of Themezy</p>
+					<p className="copy">This site is developed using ReactJS by Yahya Kayani from the original template of Themezy</p>
 				</div>
 			</footer>
     )

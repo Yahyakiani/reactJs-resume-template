@@ -9,12 +9,12 @@ const SmartText = ({ text, length = 200 }) => {
   }
 
   return (
-    <p>
+    <>
       {showLess ? `${text.slice(0, length)}...` : text}
       <a onClick={() => setShowLess(!showLess)}>
         &nbsp;<br />View {showLess ? "More" : "Less"}
       </a>
-    </p>
+    </>
   );
 };
 

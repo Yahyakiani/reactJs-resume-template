@@ -5,14 +5,14 @@ import "./_slider.scss";
 
 const Slider = () => {
   return (
-    <div class="hero">
-      <div class="slider">
-        <ul class="slides">
-          <li class="lazy-bg">
-            <div class="container">
-              <h2 class="slide-title">Yahya Kayani</h2>
-              <h3 class="slide-subtitle">Software Engineer</h3>
-              <p class="slide-desc">
+    <div className="hero">
+      <div className="slider">
+        <ul className="slides">
+          <li className="lazy-bg">
+            <div className="container">
+              <h2 className="slide-title">Yahya Kayani</h2>
+              <h3 className="slide-subtitle">Software Engineer</h3>
+              <p className="slide-desc">
                 An individual who has a passion for making <br></br> great
                 looking and optimized web apps.
               </p>

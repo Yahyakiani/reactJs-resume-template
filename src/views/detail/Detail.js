@@ -1,29 +1,48 @@
-import React from 'react'
-import { CertificateDetails, ProjectDetails } from '../../components/constants/data/ConstantData'
-import { SideBarContainer } from '../../components/sidebar/SideBarContainer'
-import Post from './Post'
-
+import React, { useEffect } from "react";
+import {
+  CertificateDetails,
+  ProjectDetails,
+} from "../../components/constants/data/ConstantData";
+import { SideBarContainer } from "../../components/sidebar/SideBarContainer";
+import Post from "./Post";
 
 const Detail = () => {
-    return (
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="content">
-                        <h2 class="entry-title">Project Details</h2>
-                        {ProjectDetails.map(project => <Post
-                            date={project.date}
-                            title={project.title}
-                            description={project.description}
-                            link={project.link}
-                            imgName={project.img}
-                        />)}
-                    </div>
-                </div>
-                <SideBarContainer Details={CertificateDetails} title={'Certificates'} />
-            </div>
-        </div>
-    )
-}
+  const location = window.location;
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.replace("#", ""));
+      setTimeout(() => {
+        window.scrollTo({
+          behavior: element ? "smooth" : "auto",
+          top: element ? element.offsetTop : 0,
+        });
+      }, 100);
+    }
+  }, [location]);
 
-export default Detail
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-md-7">
+          <div className="content">
+            <h2 className="entry-title">Project Details</h2>
+            {ProjectDetails.map((project) => (
+              <Post
+                id={project.id}
+                // key={`${project.title}-${project.id}`}
+                date={project.date}
+                title={project.title}
+                description={project.description}
+                link={project.link}
+                imgName={project.img}
+              />
+            ))}
+          </div>
+        </div>
+        <SideBarContainer Details={CertificateDetails} title={"Certificates"} />
+      </div>
+    </div>
+  );
+};
+
+export default Detail;

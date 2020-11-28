@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom'
 
 const Header = () => {
     return (
-        <header class="site-header">
-            <div class="container">
+        <header className="site-header">
+            <div className="container">
                 <Link to={route_constants.HOME} id="branding">
                     <img src={logo} height={'40rem'} width={'40rem'} alt="Logo" />
-                    <small class="site-description">Yahya Kayani</small>
+                    <small className="site-description">Yahya Kayani</small>
                 </Link>
                 <Nav />
-                <div class="mobile-menu"></div>
+                <div className="mobile-menu"></div>
             </div>
         </header>
 

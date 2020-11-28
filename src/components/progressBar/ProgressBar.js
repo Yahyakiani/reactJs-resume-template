@@ -6,15 +6,15 @@ const ProgressBar = ({ skills, description }) => {
     <>
       <h2>Skills</h2>
       <p>{description}</p>
-      {skills.map((skill) => {
+      {skills.map((skill,index) => {
         const style = {
           width: skill.progress,
           background: "#c14a27",
         };
         return (
-          <li>
+          <li key={`${index}-${skill.name}`}>
             <h3>{skill.name}</h3>
-            <div class="progressBar">
+            <div className="progressBar">
               <div style={style}></div>
             </div>
           </li>

@@ -1,31 +1,32 @@
-import React, { useEffect, useState } from 'react'
-import SmartText from '../../components/smartText/SmartText';
-
+import React, { useEffect, useState } from "react";
+import SmartText from "../../components/smartText/SmartText";
 
 const Post = (props) => {
+  const { date, title, description, link, imgName, id, key } = props;
 
-    const { date, title, description, link,imgName } = props;
+  const [image, setImage] = useState(null);
+  useEffect(() => {
+    imgName &&
+      import(`../../assets/images/${imgName}`).then((image) =>
+        setImage(image.default)
+      );
+  }, []);
 
-    const [image, setImage] = useState(null)
-    useEffect(() => {
-        imgName && import(`../../assets/images/${imgName}`).then(image => setImage(image.default))
-    }, [])
+  return (
+    <div className="post" id={id}>
+      <div className="entry-date">
+        <div className="date">{date.day}</div>
+        <span className="month">{date.month}</span>
+      </div>
+      <div className="featured-image">
+        <img src={image && image} alt="" />
+      </div>
+      <h2 className="entry-title">
+        <a href={link}>{title}</a>
+      </h2>
+      <SmartText text={description} />
+    </div>
+  );
+};
 
-    return (
-        <div class="post">
-            <div class="entry-date">
-                <div class="date">{date.day}</div>
-                <span class="month">{date.month}</span>
-            </div>
-            <div class="featured-image">
-                <img src={image && image} alt="" />
-            </div>
-            <h2 class="entry-title"><a href={link}>{title}</a></h2>
-            {/* <p>{description}</p>
-            <a>Read more</a> */}
-            <SmartText text={description} />
-        </div>
-    )
-}
-
-export default Post
+export default Post;

@@ -8,9 +8,9 @@ const Nav = () => {
 	const location = useLocation();
 
 	return (
-		<nav class="main-navigation">
-			<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
-			<ul class="menu">
+		<nav className="main-navigation">
+			<button type="button" className="toggle-menu"><i className="fa fa-bars"></i></button>
+			<ul className="menu">
 				<NavLink
 					to={route_constants.HOME}
 					className="menu-item"
