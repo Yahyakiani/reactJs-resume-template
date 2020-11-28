@@ -2510,10 +2510,12 @@ body {
 /* line 13, sass/pages/_post.scss */
 .content .featured-image {
   overflow: hidden;
+  height: 350px;
   margin-bottom: 50px; }
   /* line 16, sass/pages/_post.scss */
   .content .featured-image img {
-    width: 100%;
+    width: 400px;
+    /* height: 350px; */
     max-width: 100%; }
 /* line 22, sass/pages/_post.scss */
 .content .leading {

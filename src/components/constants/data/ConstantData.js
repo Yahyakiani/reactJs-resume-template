@@ -1,35 +1,35 @@
 export const ProjectDetails = [
   {
-    date: { day: "23", month: "Jun" },
+    date: { day: "10", month: "Feb" },
     img: "react1.png",
-    title: "Sed et persipiatis unde omnis iste natus",
+    title: "Micro Frontends DataSharing",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati officia quo dicta, similique, reiciendis beatae enim adipisci voluptates molestiae iusto, totam harum aliquid. Non officiis nobis, ut nesciunt eligendi asperiores.",
-    link: "#",
+      "These is a static Multi-page application developed using Micro-Frontend Architecture React.js. They provide a concise overview of 3 techniques for data sharing between the Micro-Applications. Moreover, They also show how to perform routing between them.features implementation of Data sharing techniques between 3 micro-frontends. Namely these techniques are : State Sharing through Global Redux store, State Sharing through Events and State sharing through external packages",
+    link: "https://github.com/Yahyakiani/micro-frontends-DataSharing-Techniques",
   },
   {
-    date: { day: "23", month: "Jun" },
-    img: "react.png",
-    title: "Sed et persipiatis unde omnis iste natus",
+    date: { day: "5", month: "Sep" },
+    img: "python.png",
+    title: "Data mining and Analysis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati officia quo dicta, similique, reiciendis beatae enim adipisci voluptates molestiae iusto, totam harum aliquid. Non officiis nobis, ut nesciunt eligendi asperiores.",
-    link: "#",
+      "A Project which uses lxml for Data Extraction and Pandas for Analysis and Mining useful information. The data is then stored in pandas Dataframe which then cleans the data and performs analysis on it to find the max, min and average for each brand and its categories.It also performs sale analysis of items. The app is containerized with the help of Docker.",
+    link: "https://github.com/Yahyakiani/Data-Mining-and-Analysis",
   },
   {
     date: { day: "20", month: "Nov" },
-    img: "",
+    img: "analysis.png",
     title: "Real Time-Person of Interest Identification System",
     description:
-      "designed a security assurance system. Our system aimed to help to make a public place safer by recognizing individuals from their face and gait, making access-restricted areas more secure as well. It won the second position in the “COMSATS open house” competition out of the 50 projects present. There were many in running applications in time that worked for face classification. However, our re-identification through gait analysis gave a more push to explore this domain.",
-    link: "#",
+      "Developed in python using Kivy Framework for Cross Platform UI development along with TensorFlow Framework for Model Training ,Optimization and testing.It performed monitoring and analysis on a set of Image frames.A Vision-Based Security system.It relied on 3 layers of security which are human detection, Face detection and Gait detection.Gait detection was applied using Recurrent neural networks.Made use of Transfer Learning Technique for our Deep learning Model.Awarded 2nd Position in Open House Competition held in Comsats University Islamabad.",
+    link: "https://www.linkedin.com/in/yahya-kayani/detail/treasury/education:440302332/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACOjZbgBQaFnXahDDsfgej1v1z7HWV6T0kY%2C1606479880227)&section=education%3A440302332&treasuryCount=2",
   },
   {
     date: { day: "23", month: "Jun" },
-    img: "",
-    title: "Sed et persipiatis unde omnis iste natus",
+    img: "Limesurvey.png",
+    title: "LimeSurvey",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati officia quo dicta, similique, reiciendis beatae enim adipisci voluptates molestiae iusto, totam harum aliquid. Non officiis nobis, ut nesciunt eligendi asperiores.",
-    link: "#",
+      " An open-source project for gathering the client’s preferences using surveys. Performed Bug Fixes along with features updates and development using Jquery and vanilla Javascript. Furthermore, New survey styles and functionality were developed for a smoother client experience.",
+    link: "https://www.limesurvey.org/en/",
   },
 ];
 export const PersonalDetails = {

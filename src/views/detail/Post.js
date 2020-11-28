@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import SmartText from '../../components/smartText/SmartText';
 
 
 const Post = (props) => {
@@ -19,9 +20,10 @@ const Post = (props) => {
             <div class="featured-image">
                 <img src={image && image} alt="" />
             </div>
-            <h2 class="entry-title"><a href="#">{title}</a></h2>
-            <p>{description}</p>
-            <a href={link}>Read more</a>
+            <h2 class="entry-title"><a href={link}>{title}</a></h2>
+            {/* <p>{description}</p>
+            <a>Read more</a> */}
+            <SmartText text={description} />
         </div>
     )
 }
