@@ -6,6 +6,12 @@
 
 A static Multi-paged application resumer-builder developed using React.js. It uses the Music Band template designed by [Themezy](https://www.themezy.com/), ported over to React.js, and follows a customized version of the [JSON Resume schema](https://jsonresume.org/schema/) along with additional Modifications.
 
+# Views
+![Home Page](./public_assets/homepage.png)
+![Projects](./public_assets/project.png)
+
+# Demo
+![Demo](./public_assets/demo.gif)
 
 ## Installation
 
@@ -30,4 +36,6 @@ To bundle for deployment:
 npm run bundle
 ````
 
-You can view the live site at
+## Contributing
+
+Welcome :)
