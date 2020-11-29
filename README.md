@@ -40,4 +40,4 @@ npm run bundle
 
 ## Contributing
 
-Welcome :)
+Take a Pull.
