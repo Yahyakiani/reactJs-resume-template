@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reactJs-resume-template/static/css/main.3b095ed5.chunk.css",
-    "main.js": "/reactJs-resume-template/static/js/main.8f607174.chunk.js",
-    "main.js.map": "/reactJs-resume-template/static/js/main.8f607174.chunk.js.map",
+    "main.js": "/reactJs-resume-template/static/js/main.a702f9fd.chunk.js",
+    "main.js.map": "/reactJs-resume-template/static/js/main.a702f9fd.chunk.js.map",
     "runtime-main.js": "/reactJs-resume-template/static/js/runtime-main.8fa00b98.js",
     "runtime-main.js.map": "/reactJs-resume-template/static/js/runtime-main.8fa00b98.js.map",
     "static/css/2.f22bf0f5.chunk.css": "/reactJs-resume-template/static/css/2.f22bf0f5.chunk.css",
-    "static/js/2.729f0f1d.chunk.js": "/reactJs-resume-template/static/js/2.729f0f1d.chunk.js",
-    "static/js/2.729f0f1d.chunk.js.map": "/reactJs-resume-template/static/js/2.729f0f1d.chunk.js.map",
+    "static/js/2.00081fc2.chunk.js": "/reactJs-resume-template/static/js/2.00081fc2.chunk.js",
+    "static/js/2.00081fc2.chunk.js.map": "/reactJs-resume-template/static/js/2.00081fc2.chunk.js.map",
     "static/js/3.883298c3.chunk.js": "/reactJs-resume-template/static/js/3.883298c3.chunk.js",
     "static/js/3.883298c3.chunk.js.map": "/reactJs-resume-template/static/js/3.883298c3.chunk.js.map",
     "static/js/4.90ecf835.chunk.js": "/reactJs-resume-template/static/js/4.90ecf835.chunk.js",
@@ -39,7 +39,7 @@
     "index.html": "/reactJs-resume-template/index.html",
     "static/css/2.f22bf0f5.chunk.css.map": "/reactJs-resume-template/static/css/2.f22bf0f5.chunk.css.map",
     "static/css/main.3b095ed5.chunk.css.map": "/reactJs-resume-template/static/css/main.3b095ed5.chunk.css.map",
-    "static/js/2.729f0f1d.chunk.js.LICENSE.txt": "/reactJs-resume-template/static/js/2.729f0f1d.chunk.js.LICENSE.txt",
+    "static/js/2.00081fc2.chunk.js.LICENSE.txt": "/reactJs-resume-template/static/js/2.00081fc2.chunk.js.LICENSE.txt",
     "static/media/Limesurvey.png": "/reactJs-resume-template/static/media/Limesurvey.77a2e166.png",
     "static/media/Yahya1.jpg": "/reactJs-resume-template/static/media/Yahya1.fdad0ed8.jpg",
     "static/media/analysis.png": "/reactJs-resume-template/static/media/analysis.60c3ef44.png",
@@ -53,8 +53,8 @@
   "entrypoints": [
     "static/js/runtime-main.8fa00b98.js",
     "static/css/2.f22bf0f5.chunk.css",
-    "static/js/2.729f0f1d.chunk.js",
+    "static/js/2.00081fc2.chunk.js",
     "static/css/main.3b095ed5.chunk.css",
-    "static/js/main.8f607174.chunk.js"
+    "static/js/main.a702f9fd.chunk.js"
   ]
 }
