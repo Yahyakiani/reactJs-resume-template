@@ -21,6 +21,22 @@
     @include block-list;
   }
 
+  .company{
+    outline: 0;
+    text-decoration: none;
+    color: #848484;
+
+  }
+.company:hover{
+  color: #c14a27;
+}
+  .info {
+    font: 15px/24px 'librebaskerville-regular', sans-serif;
+    color: #6E7881;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
   // Using a custom selector for a block link
   .block-list-alt {
     @include block-list('.block-list__link');
