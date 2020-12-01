@@ -1,6 +1,7 @@
 import React from "react";
-import "./progressBar.scss";
 import  WorkSection  from "./workSection";
+import "./progressBar.scss";
+import Education from "./Education";
 
 const ProgressBar = ({ skills, description }) => {
   return (
@@ -23,6 +24,7 @@ const ProgressBar = ({ skills, description }) => {
       })}
 
       <WorkSection />
+      <Education />
     </div>
   );
 };

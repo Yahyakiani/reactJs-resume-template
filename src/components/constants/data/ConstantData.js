@@ -49,10 +49,14 @@ export const ProjectDetails = [
 export const PersonalDetails = {
   img: "Yahya1.jpg",
   companyName:"Nmx Global Software",
+  UniName:"Comsats University Islamabad",
+  UniUrl:"https://www.comsats.edu.pk/",
   companyUrl:"https://www.nmxglobalsoftware.com/",
   position:"Software Engineer",
   workingTime:"Feb 2019 - Present",
-  location:"Islamabad Pakistan",
+  studyTime:"Feb 2015 - Jan 2019",
+  studyMajor:"Bachelors of Science in Computer Science, (BCS)",
+  location:"Islamabad, Pakistan",
   summary:
     "Passionate about finding problems and then finding someone else to solve them😄. Quick learner always searching to broaden my exposure to novel problems and unique solutions.",
   description:

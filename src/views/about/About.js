@@ -8,7 +8,7 @@ import { SideBarContainer } from "../../components/sidebar/SideBarContainer";
 import "./about.scss";
 
 const About = () => {
-  const { summary, description, detail, img, skills } = PersonalDetails;
+  const { summary, description, img, skills } = PersonalDetails;
   const [image, setImage] = useState(null);
   useEffect(() => {
     img &&
@@ -26,10 +26,7 @@ const About = () => {
               <img src={image} alt="Yahya" width={"350px"} height={"350px"} />
             </figure>
             <p className="leading">{summary}</p>
-
-              <ProgressBar skills={skills} description={description} />
-
-            {/* <p>{detail}</p> */}
+            <ProgressBar skills={skills} description={description} />
           </div>
         </div>
         <SideBarContainer Details={AwardDetails} title={"Awards"} />
