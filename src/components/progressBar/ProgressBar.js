@@ -1,12 +1,13 @@
 import React from "react";
 import "./progressBar.scss";
+import  WorkSection  from "./workSection";
 
 const ProgressBar = ({ skills, description }) => {
   return (
-    <>
+    <div className="progress">
       <h2>Skills</h2>
       <p>{description}</p>
-      {skills.map((skill,index) => {
+      {skills.map((skill, index) => {
         const style = {
           width: skill.progress,
           background: "#c14a27",
@@ -20,7 +21,9 @@ const ProgressBar = ({ skills, description }) => {
           </li>
         );
       })}
-    </>
+
+      <WorkSection />
+    </div>
   );
 };
 export default ProgressBar;

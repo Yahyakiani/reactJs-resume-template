@@ -1,0 +1,27 @@
+@mixin block-list($link-selector: 'a', $border-color: #c14a27, $border-width: 2px, $item-padding: 0.75em) {
+    // border-top: $border-width solid $border-color;
+    list-style: none;
+    padding-left: 0;
+    > li {
+      border-bottom: $border-width solid $border-color;
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      padding: $item-padding;
+      #{$link-selector} {
+        display: block;
+        padding: $item-padding;
+        margin: -$item-padding;
+      }
+    }
+  }
+
+  // Standard usage
+  .block-list {
+    @include block-list;
+  }
+
+  // Using a custom selector for a block link
+  .block-list-alt {
+    @include block-list('.block-list__link');
+  }

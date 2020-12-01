@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import SmartText from "../../components/smartText/SmartText";
 
 const Post = (props) => {
-  const { date, title, description, link, imgName, id, key } = props;
+  const { date, title, description, link, imgName, id } = props;
 
   const [image, setImage] = useState(null);
   useEffect(() => {
@@ -10,7 +10,7 @@ const Post = (props) => {
       import(`../../assets/images/${imgName}`).then((image) =>
         setImage(image.default)
       );
-  }, []);
+  });
 
   return (
     <div className="post" id={id}>

@@ -23,6 +23,10 @@ li {
   overflow: hidden;
   // @include border-radius(25px);
 }
+.underline {
+  border-bottom: 4px solid #c14a27;
+  width: 9%;
+}
 
 .progressBar div {
   display: block;
@@ -39,4 +43,12 @@ li {
   font-size: 0.6rem;
   line-height: 1.25;
   font-weight: bold;
+}
+
+.progress {
+margin-bottom: 4rem;
+}
+.progress h2 {
+  border-bottom: 4px solid #c14a27;
+  width: 9%;
 }
