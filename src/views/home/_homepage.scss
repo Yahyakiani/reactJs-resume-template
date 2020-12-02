@@ -266,3 +266,11 @@
 		font-weight: 400;
 	}
 }
+
+.animated{
+	font-size: 1em;
+	text-align: center;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+}
