@@ -20,19 +20,18 @@ export const ProjectDetails = [
       "A Project which uses lxml for Data Extraction and Pandas for Analysis and Mining useful information. The data is then stored in pandas Dataframe which then cleans the data and performs analysis on it to find the max, min and average for each brand and its categories.It also performs sale analysis of items. The app is containerized with the help of Docker.",
     link: "https://github.com/Yahyakiani/Data-Mining-and-Analysis",
     shortDescription:
-      "Analysis Perform in Python employing Pandas on Live Website Dataset.",
+      "Analysis Performed in Python employing Pandas on Live Website Dataset.",
   },
   {
     id: "p3",
-    date: { day: "20", month: "Nov" },
-    img: "analysis.png",
-    title: "Real Time-Person of Interest Identification System",
+    date: { day: "27", month: "Mar" },
+    img: "cv-maker.PNG",
+    title: "Awesome CV",
     description:
-      "Developed in python using Kivy Framework for Cross Platform UI development along with TensorFlow Framework for Model Training ,Optimization and testing.It performed monitoring and analysis on a set of Image frames.A Vision-Based Security system.It relied on 3 layers of security which are human detection, Face detection and Gait detection.Gait detection was applied using Recurrent neural networks.Made use of Transfer Learning Technique for our Deep learning Model.Awarded 2nd Position in Open House Competition held in Comsats University Islamabad.",
-    link:
-      "https://www.linkedin.com/in/yahya-kayani/detail/treasury/education:440302332/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACOjZbgBQaFnXahDDsfgej1v1z7HWV6T0kY%2C1606479880227)&section=education%3A440302332&treasuryCount=2",
+    "Awesome CV is LaTeX template for a CV(Curriculum Vitae), Résumé or Cover Letter. I loved the look of this project. Although, it was non-functional when I came across this project. I knew little to nothing about latex and it's working at the time, I was excited to fix the error-prone cv maker. After much trial and errors, I finally found that the cv compilation broke down because of path difference in file imports on Windows Operating systems.",    link:"https://github.com/posquit0/Awesome-CV",
+    link:"https://github.com/Yahyakiani/Awesome-CV-working",
     shortDescription:
-      "University Final year Project which won 2nd place over 50 other projects in the expo.",
+      "Fixed a non-functional but awesome latex based cv making template for those who would want to use it.",
   },
   {
     id: "p4",
@@ -44,6 +43,29 @@ export const ProjectDetails = [
     link: "https://www.limesurvey.org/en/",
     shortDescription:
       "A Survey taking software on which i performed fixes and feature development while at Numetrics.",
+  },
+  {
+    id: "p5",
+    date: { day: "20", month: "Nov" },
+    img: "analysis.png",
+    title: "Real Time-Person of Interest Identification System",
+    description:
+      "Developed in python using Kivy Framework for Cross Platform UI development along with TensorFlow Framework for Model Training ,Optimization and testing.It performed monitoring and analysis on a set of Image frames.A Vision-Based Security system.It relied on 3 layers of security which are human detection, Face detection and Gait detection.Gait detection was applied using Recurrent neural networks.Made use of Transfer Learning Technique for our Deep learning Model.Awarded 2nd Position in Open House Competition held in Comsats University Islamabad.",
+    link:
+      "https://www.linkedin.com/in/yahya-kayani/detail/treasury/education:440302332/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAACOjZbgBQaFnXahDDsfgej1v1z7HWV6T0kY%2C1606479880227)&section=education%3A440302332&treasuryCount=2",
+    shortDescription:
+      "University Final year Project which won 2nd place over 50 other projects in the expo.",
+  },
+  {
+    id: "p6",
+    date: { day: "5", month: "Sep" },
+    img: "python.png",
+    title: "Data mining and Analysis",
+    description:
+      "A Project which uses lxml for Data Extraction and Pandas for Analysis and Mining useful information. The data is then stored in pandas Dataframe which then cleans the data and performs analysis on it to find the max, min and average for each brand and its categories.It also performs sale analysis of items. The app is containerized with the help of Docker.",
+    link: "https://github.com/Yahyakiani/Data-Mining-and-Analysis",
+    shortDescription:
+      "Analysis Performed in Python employing Pandas on Live Website Dataset.",
   },
 ];
 export const PersonalDetails = {
@@ -66,14 +88,14 @@ export const PersonalDetails = {
       {text:"Designed a more streamlined UI/UX connecting with API's for smoother user experience. (React, Appollo, Node)"},
       {text:"Architected and implemented a dashboard to give members a more comprehensive insight into their working"},
       {text:"Responsible for coordinating with QA for understanding of application requirements and fixing the issues generated by QA Team"},
-      {text:"Responsible for monitoring application performance ,Designing and developing any necessary configurations & infrastructure changes within the project"},
+      {text:"Streamlining monitoring application performance ,Designing and developing any necessary configurations & infrastructure changes within the project"},
     ],
   skills: [
     { name: "React/Redux", progress: "80%" },
     { name: "Node", progress: "75%" },
     { name: "Flask", progress: "80%" },
     { name: "Appollo GraphQl", progress: "65%" },
-    { name: "React Native", progress: "60%" },
+    { name: "Jquery", progress: "70%" },
   ],
 };
 
