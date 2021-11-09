@@ -5,22 +5,22 @@ export const ProjectDetails = [
     img: "react1.png",
     title: "Micro Frontends DataSharing",
     description:
-      "These is a static Multi-page application developed using Micro-Frontend Architecture React.js. They provide a concise overview of 3 techniques for data sharing between the Micro-Applications. Moreover, They also show how to perform routing between them.features implementation of Data sharing techniques between 3 micro-frontends. Namely these techniques are : State Sharing through Global Redux store, State Sharing through Events and State sharing through external packages",
+      "A static Multi-page application developed using Micro-Frontend Architecture React.js. They provide a concise overview of 3 techniques for data sharing between the Micro-Applications. Moreover, They also show how to perform routing between them. Implementation of Data sharing techniques between 3 micro-frontends. Namely, these techniques are: State Sharing through Global Redux store, State Sharing through Events, and State sharing through external packages.",
     link:
       "https://github.com/Yahyakiani/micro-frontends-DataSharing-Techniques",
     shortDescription:
-      "An exercise of Micro-Frontends architecture consisting of 3 React applications.",
+      "An MVP of Micro-Frontends architecture consisting of 3 React applications.",
   },
   {
     id: "p2",
     date: { day: "5", month: "Sep" },
-    img: "python.png",
-    title: "Data mining and Analysis",
+    img: "heartbeat.png",
+    title: "Heartbeat",
     description:
-      "A Project which uses lxml for Data Extraction and Pandas for Analysis and Mining useful information. The data is then stored in pandas Dataframe which then cleans the data and performs analysis on it to find the max, min and average for each brand and its categories.It also performs sale analysis of items. The app is containerized with the help of Docker.",
-    link: "https://github.com/Yahyakiani/Data-Mining-and-Analysis",
+      "An extensive CRM tool for managing and streaming the whole process of House Construction/Acquisition from designing to the management of homeowners. Implemented an ICS feed through which the Sales team could subscribe to various events types on outlook and Google calendars. Reworked dashboard pages for data flow efficiency along with further features such as time off synchronization scripts that were used to keep the database synchronized with the time off requests of all employees.",
+    link: "https://schellbrothers.com/why-choose-schell/heartbeat/",
     shortDescription:
-      "Analysis Performed in Python employing Pandas on Live Website Dataset.",
+      "Heartbeat portal streamlines the process of home building, home designing, the procedure of acquisition of homes, and customer management by providing helpful tools and tips.",
   },
   {
     id: "p3",
@@ -39,7 +39,7 @@ export const ProjectDetails = [
     img: "Limesurvey.png",
     title: "LimeSurvey",
     description:
-      " An open-source project for gathering the client’s preferences using surveys. Performed Bug Fixes along with features updates and development using Jquery and vanilla Javascript. Furthermore, New survey styles and functionality were developed for a smoother client experience.",
+      "An open-source project for gathering the client’s preferences using surveys. Performed Bug Fixes along with features updates and development using Jquery and vanilla Javascript. Furthermore, New survey styles and functionality were developed for a smoother client experience.",
     link: "https://www.limesurvey.org/en/",
     shortDescription:
       "A Survey taking software on which i performed fixes and feature development while at Numetrics.",
