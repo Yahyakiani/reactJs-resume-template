@@ -14,6 +14,7 @@ const Routes = () => {
                 <Route exact path={route_constants.HOME} component={Home} />
                 <Route exact path={route_constants.ABOUT} component={About} />
                 <Route exact path={route_constants.PROJECT} component={Detail} />
+                <Route exact path={route_constants.ARTICLES} component={Detail} />
                 <Route path="*" render={() => <Redirect to={route_constants.HOME} />} />
             </Switch>
         </ScrollToTop>

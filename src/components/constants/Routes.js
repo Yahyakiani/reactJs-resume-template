@@ -3,4 +3,5 @@ export const route_constants = {
     ABOUT:'/about',
     PROJECT:'/projects',
     SKILL:'/skill',
+    ARTICLES:'/articles',
 }
