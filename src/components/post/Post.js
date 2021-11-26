@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SmartText from "../../components/smartText/SmartText";
+import SmartText from "../smartText/SmartText";
 
 const Post = (props) => {
   const { date, title, description, link, imgName, id } = props;

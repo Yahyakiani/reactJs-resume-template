@@ -68,6 +68,16 @@ export const ProjectDetails = [
       "Analysis Performed in Python employing Pandas on Live Website Dataset.",
   },
 ];
+export const ArticleDetails = [
+  {
+    id: "a1",
+    date: { day: "5", month: "Sep" },
+    img: "a1.jpg",
+    title: "Difference between useEffect, useMemo and useCallback and when to use them in React ?",
+    link: "https://medium.com/@yahyakiani1/difference-between-useeffect-usememo-and-usecallback-and-when-to-use-them-in-react-dcab76390aaf",
+  
+  },
+];
 export const PersonalDetails = {
   img: "Yahya1.jpg",
   companyName:"Nmx Global Software",

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
+import Post from '../../components/post/Post'
+import { SideBarContainer } from "../../components/sidebar/SideBarContainer";
 import {
   CertificateDetails,
   ProjectDetails,
 } from "../../components/constants/data/ConstantData";
-import { SideBarContainer } from "../../components/sidebar/SideBarContainer";
-import Post from "./Post";
 
 const Detail = () => {
   const location = window.location;
