@@ -1,2 +1,0 @@
-(this.webpackJsonpresumproject=this.webpackJsonpresumproject||[]).push([[4],{54:function(e,s,t){"use strict";t.r(s),s.default=t.p+"static/media/cv-maker.a1f13536.PNG"}}]);
-//# sourceMappingURL=4.362acc7b.chunk.js.map

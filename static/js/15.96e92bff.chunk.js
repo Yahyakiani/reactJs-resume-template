@@ -1,0 +1,2 @@
+(this.webpackJsonpresumproject=this.webpackJsonpresumproject||[]).push([[15],{56:function(e,t,s){"use strict";s.r(t),t.default=s.p+"static/media/heartbeat.d7875ef9.png"}}]);
+//# sourceMappingURL=15.96e92bff.chunk.js.map

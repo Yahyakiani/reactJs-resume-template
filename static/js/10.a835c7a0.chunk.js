@@ -1,2 +1,0 @@
-(this.webpackJsonpresumproject=this.webpackJsonpresumproject||[]).push([[10],{50:function(s,t,c){"use strict";c.r(t),t.default=c.p+"static/media/background1.953c656f.png"}}]);
-//# sourceMappingURL=10.a835c7a0.chunk.js.map

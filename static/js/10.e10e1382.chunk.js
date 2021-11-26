@@ -1,0 +1,2 @@
+(this.webpackJsonpresumproject=this.webpackJsonpresumproject||[]).push([[10],{50:function(e,s,t){"use strict";t.r(s),s.default=t.p+"static/media/award2.9ee20d32.png"}}]);
+//# sourceMappingURL=10.e10e1382.chunk.js.map
