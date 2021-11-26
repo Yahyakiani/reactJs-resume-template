@@ -5,9 +5,11 @@ import {
   CertificateDetails,
   ProjectDetails,
 } from "../../components/constants/data/ConstantData";
+import { route_constants } from "../../components/constants/Routes";
 
 const Detail = () => {
   const location = window.location;
+  
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.replace("#", ""));
@@ -25,11 +27,11 @@ const Detail = () => {
       <div className="row">
         <div className="col-md-7">
           <div className="content">
-            <h2 className="entry-title">Project Details</h2>
+            <h2 className="entry-title">{location.pathname === route_constants.PROJECT ? 'Project Details' : 'Articles'}</h2>
             {ProjectDetails.map((project) => (
               <Post
                 id={project.id}
-                // key={`${project.title}-${project.id}`}
+                key={`${project.title}-${project.id}`}
                 date={project.date}
                 title={project.title}
                 description={project.description}
