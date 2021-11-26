@@ -71,7 +71,7 @@ export const ProjectDetails = [
 export const ArticleDetails = [
   {
     id: "a1",
-    date: { day: "5", month: "Sep" },
+    date: { day: "20", month: "Nov" },
     img: "a1.jpg",
     title: "Difference between useEffect, useMemo and useCallback and when to use them in React ?",
     link: "https://medium.com/@yahyakiani1/difference-between-useeffect-usememo-and-usecallback-and-when-to-use-them-in-react-dcab76390aaf",

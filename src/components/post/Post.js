@@ -24,7 +24,7 @@ const Post = (props) => {
       <h2 className="entry-title">
         <a href={link}>{title}</a>
       </h2>
-      <SmartText text={description} />
+      {description && <SmartText text={description} />}
     </div>
   );
 };
