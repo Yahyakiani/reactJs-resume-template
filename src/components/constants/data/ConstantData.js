@@ -81,10 +81,10 @@ export const ArticleDetails = [
 export const PersonalDetails = {
   img: "Yahya1.jpg",
   companyName:"Nmx Global Software",
-  UniName:"Comsats University Islamabad",
+  UniName:"Dalhousie University",
   UniUrl:"https://www.comsats.edu.pk/",
   companyUrl:"https://www.nmxglobalsoftware.com/",
-  position:"Software Engineer",
+  position:"Research Graduate Student(MSc))",
   workingTime:"Feb 2019 - Present",
   studyTime:"Feb 2015 - Jan 2019",
   studyMajor:"Bachelors of Science in Computer Science, (BCS)",
